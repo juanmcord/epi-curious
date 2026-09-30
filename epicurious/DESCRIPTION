@@ -1,0 +1,16 @@
+Package: epicurious
+Type: Package
+Title: Epigenome-Wide Association with CpG-Specific SNP Adjustment
+Version: 0.1.0
+Authors@R: person("epi-curious", "Contributors", role = c("aut", "cre"),
+    email = "maintainer@example.org")
+Description: Fits ordinary least squares models of DNA methylation on a
+    phenotype and covariates, adding predefined SNP dosages separately for
+    each CpG. Provides explicit sample alignment, complete-case analysis,
+    model diagnostics, multiple-testing correction, and reproducible exports.
+    Includes a dependency-free example and a command-line workflow.
+License: file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: stats, utils, parallel
+NeedsCompilation: no

@@ -1,0 +1,13 @@
+PASS 01: CpG-specific models match lm estimates, SEs, confidence intervals, and p-values
+PASS 02: Different input sample orders produce identical results
+PASS 03: Joint phenotype, methylation, and genotype missingness matches lm complete cases
+PASS 04: Multilevel exposure gets a joint F test matching nested-model anova
+PASS 05: Strict matching rejects unequal sample sets
+PASS 06: Intersection is explicit, reorders correctly, and audits exclusions
+PASS 07: Duplicate sample identifiers are rejected
+PASS 08: Duplicate CpG identifiers are rejected
+PASS 09: Unknown CpGs are rejected instead of silently omitted
+PASS 10: A requested SNP absent from genotype data is an error by default
+PASS 11: Skip policy retains a failed result row and all valid other CpGs
+PASS 12: Opt-in SNP dropping is flagged as partial adjustment
+PASS 13: Unselected map entries do not block a requested CpG subset

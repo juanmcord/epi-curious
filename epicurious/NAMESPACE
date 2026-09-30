@@ -1,0 +1,6 @@
+export(ewas_mqtl)
+export(methylation_from_table)
+export(genotypes_from_bigsnp)
+export(simulate_epicurious)
+export(write_ewas)
+S3method(print,epicurious_ewas)
